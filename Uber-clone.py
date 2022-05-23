@@ -18,7 +18,7 @@ Payment type: {payment}""")
 
 #Creating a function that will allow the user to book a ride.
 def book_ride():
-
+    # PLEASE NOTE THAT THE PROGRAM NAME HAS TO BE THE SAME AS THE USER AGENT
     geolocator = Nominatim(user_agent="test.py")
     #Requesting user input.
     location = geolocator.geocode(input("Enter your location (4 Station Road RSA)"))
