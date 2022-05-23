@@ -1,6 +1,6 @@
 from geopy.geocoders import Nominatim
 from geopy import distance
-
+#pip install geopy
 
 #Creating a funtion that will ask the user to enter their registration details.
 def rider_details():
